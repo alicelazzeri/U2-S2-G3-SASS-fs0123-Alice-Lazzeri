@@ -88,6 +88,14 @@ html {
     
     .container4 {
       @include grid (3);
+      .container5 {
+        img {
+          border-radius: 15px;
+          object-fit: cover;
+          border: 2px solid violet;
+          box-shadow: 0px 5px 24px 0px #000000;
+        }
+      }
     }
 
   }
